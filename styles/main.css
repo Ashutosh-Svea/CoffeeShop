@@ -86,6 +86,21 @@ h1,h2,h3,h4,h5,h6
     box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
 }
 
+.About{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.AboutItem{
+    display: flex;
+    flex-flow: column wrap;
+    margin: .4rem;
+    padding: .5rem;
+}
+
 .box{
     display: flex;
     flex-direction: column;
