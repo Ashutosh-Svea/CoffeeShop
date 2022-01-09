@@ -7,12 +7,15 @@ body {
 }
 
 #mainheader {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
     background-color: grey;
 }
 
 nav {
-    height: 60px;
-    width: 1000px;
+    height: 5%;
+    width: 100%;
     margin: 0 auto 20px;
 }
 
@@ -25,7 +28,7 @@ nav>ul {
 }
 
 nav>ul>li {
-    float: left;
+    display: flex;
 }
 
 nav>ul>li a {
@@ -46,24 +49,30 @@ nav>ul>li:hover{
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-}
+}   
 
 .pageTitle{
     font-size:35px;
     color:brown;
 }
 
+h1,h2,h3,h4,h5,h6 
+{
+    justify-content: center;
+}
 
 .main{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    flex-basis: 90%;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .productGallery{
     display: flex;
     flex-direction: row;
-    width: 60%;
+    flex-basis: 90%;
     flex-wrap: wrap;
     align-content: flex-start;
 }
@@ -71,6 +80,54 @@ nav>ul>li:hover{
 .productCard{
     display: flex;
     flex-flow: column wrap;
+    margin: .4rem;
+    padding: .5rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 90%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.who{
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 50%;
+    margin: .4rem;
+    padding: .5rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+}
+
+.what{
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 50%;
+    margin: .4rem;
+    padding: .5rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+}
+
+.why{
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 50%;
+    margin: .4rem;
+    padding: .5rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+}
+
+.party{
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 50%;
     margin: .4rem;
     padding: .5rem;
     background-color: #fff;
