@@ -4,7 +4,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     color: white;
-    background-color: brown;
+    background-color: rgb(80, 9, 9);
 }
 
 #mainheader {
@@ -96,6 +96,7 @@ h1,h2,h3,h4,h5,h6
     flex-basis: 100%;
     flex-wrap: wrap;
     align-content: flex-start;
+
 }
 
 .AboutItem{
@@ -103,6 +104,7 @@ h1,h2,h3,h4,h5,h6
     flex-flow: column wrap;
     margin: .4rem;
     padding: .5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
 }
 
 .box{
@@ -119,7 +121,7 @@ h1,h2,h3,h4,h5,h6
     flex-basis: 50%;
     margin: .4rem;
     padding: .5rem;
-    background-color: brown;
+    background-color: rgb(129, 14, 14);
     color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
 }
@@ -131,7 +133,7 @@ h1,h2,h3,h4,h5,h6
     margin: .4rem;
     padding: .5rem;
     color: white;
-    background-color: brown;
+    background-color: rgb(129, 14, 14);
     box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
 }
 
@@ -142,7 +144,7 @@ h1,h2,h3,h4,h5,h6
     color: white;
     margin: .4rem;
     padding: .5rem;
-    background-color: brown;
+    background-color: rgb(129, 14, 14);
     box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
 }
 
@@ -153,7 +155,7 @@ h1,h2,h3,h4,h5,h6
     flex-basis: 50%;
     margin: .4rem;
     padding: .5rem;
-    background-color: brown;
+    background-color: rgb(129, 14, 14);
     box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
 }
 
