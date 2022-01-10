@@ -3,7 +3,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: auto;
     margin-right: auto;
-    background-color: whitesmoke;
+    color: white;
+    background-color: brown;
 }
 
 #mainheader {
@@ -49,16 +50,18 @@ nav>ul>li:hover{
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    color: white;
 }   
 
 .pageTitle{
     font-size:35px;
-    color:brown;
+    color:white;
 }
 
 h1,h2,h3,h4,h5,h6 
 {
     justify-content: center;
+    color: white;
 }
 
 .main{
@@ -75,6 +78,7 @@ h1,h2,h3,h4,h5,h6
     flex-basis: 90%;
     flex-wrap: wrap;
     align-content: flex-start;
+    color: black;
 }
 
 .productCard{
@@ -111,41 +115,45 @@ h1,h2,h3,h4,h5,h6
 
 .who{
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: row;
     flex-basis: 50%;
     margin: .4rem;
     padding: .5rem;
-    background-color: #fff;
+    background-color: brown;
+    color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
 }
 
 .what{
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: row;
     flex-basis: 50%;
     margin: .4rem;
     padding: .5rem;
-    background-color: #fff;
+    color: white;
+    background-color: brown;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
 }
 
 .why{
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: row;
     flex-basis: 50%;
+    color: white;
     margin: .4rem;
     padding: .5rem;
-    background-color: #fff;
+    background-color: brown;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
 }
 
 .party{
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: row;
+    color: white;
     flex-basis: 50%;
     margin: .4rem;
     padding: .5rem;
-    background-color: #fff;
+    background-color: brown;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
 }
 
